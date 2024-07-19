@@ -13,7 +13,9 @@ int main() {
             arr[j] = temp;
         }
      }
-   cout << arr[i] ; 
    }
+   for(int i =0; i< s; i++){
+   cout << arr[i] ;
+    } 
     return 0;
 }
