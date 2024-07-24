@@ -28,7 +28,8 @@ int main()
                 arr[r][c] = -1;
             }
 
-            cout << arr[r][c] << "\t";
+            // cout << arr[r][c] << "\t";
+            cout << arr[c][r] << "\t";
         }
         cout << "\n";
     }
