@@ -36,6 +36,6 @@ int main()
     int **c = &ptr;
 
     cout << c;
-    cout << **c; //
+    cout << **c; // double pointer (pointer to pointer)
     return 0;
 }
