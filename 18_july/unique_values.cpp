@@ -19,7 +19,7 @@ int main()
         }
         if (i == j)
         {
-            cout << arr[i] << "\t";
+            cout << arr[i] << " ";
         }
     }
     return 0;
