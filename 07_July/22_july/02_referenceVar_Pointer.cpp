@@ -21,8 +21,8 @@ int main()
     // Pointer: never stores any value , it always stores address of a variable
     int a = 300;
     int *p = &a;
-    cout << "Address of p " << &p;
-    cout << " value of p " << *p; // de-reference
+    cout << "Address of p " << &p << endl;
+    cout << "value of p " << *p << endl; // de-reference
     // cout << "The value of b (which is a reference to n) is: " << b << endl;
     // cout << "The address of b (which is a reference to n) is: " << &b << endl;
 
@@ -35,7 +35,7 @@ int main()
     int *ptr = &i;
     int **c = &ptr;
 
-    cout << c;
+    cout << c << endl;
     cout << **c; // double pointer (pointer to pointer)
     return 0;
 }
