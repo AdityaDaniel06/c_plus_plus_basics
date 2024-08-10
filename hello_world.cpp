@@ -10,13 +10,14 @@ int main()
     // cout << i;
 
     // int a, b = 12;
-    // a = b ^ 2;
+    // a = b ^ 2; XOR
     // b = a & 3;
 
-    int c = 10;
-    int d = 30;
-    int k;
-    k = c || d & 70;
-    cout << k;
+    // int c = 10;
+    // int d = 30;
+    // int k;
+    // k = c || d & 70;
+    // cout << k;
+
     return 0;
 }
