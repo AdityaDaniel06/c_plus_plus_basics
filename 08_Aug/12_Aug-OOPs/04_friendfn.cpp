@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-// friend fn is used to access the privat enad protected data member , outside of a class.
+// friend fn is used to access the private and protected data member , outside of a class.
 // friend fn should be declared in both classes but defined outside of class
 
 class tenth2;
