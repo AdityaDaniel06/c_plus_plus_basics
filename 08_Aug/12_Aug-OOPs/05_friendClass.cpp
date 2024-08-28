@@ -27,6 +27,6 @@ public:
 int main()
 {
     sbi s_obj;
-    axis ax;
-    ax.show(s_obj);
+    axis ax_obj;
+    ax_obj.show(s_obj);
 }
