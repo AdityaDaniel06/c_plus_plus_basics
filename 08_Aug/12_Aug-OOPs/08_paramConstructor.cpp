@@ -1,12 +1,18 @@
 #include <iostream>
 using namespace std;
+// we can create a parameterized  construtor by using either one parameter or more than one parameter.
 
 class atm
 {
     int code, pwd;
 
 public:
-    atm(int c, int p)
+    // constructor overloading
+    // if a program contains more than one constructor.
+    atm() // default constructor
+    {
+    }
+    atm(int c, int p) // parameterized constructor
     {
         code = c;
         pwd = p;
