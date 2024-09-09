@@ -28,6 +28,8 @@ public:
 };
 
 class Customer : public Axis, public Sbi
+// order of memory allocation Axis-- Sbi--Customer
+//  order of memory deletion Customer--> Sbi--> AXis
 {
 public:
     Customer()
