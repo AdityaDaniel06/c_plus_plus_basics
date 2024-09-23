@@ -37,7 +37,7 @@ public:
 };
 int main()
 {
-    Rbi *ptr;
+    Rbi *ptr; // pointer object
     Sbi s;
     ptr = &s;
     ptr->loan(); // Calls Sbi::loan()

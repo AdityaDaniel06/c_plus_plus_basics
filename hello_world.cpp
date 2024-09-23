@@ -19,5 +19,5 @@ int main()
     // k = c || d & 70;
     // cout << k;
 
-    return 0;
+        return 0;
 }

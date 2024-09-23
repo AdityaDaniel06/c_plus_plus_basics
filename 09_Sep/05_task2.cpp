@@ -8,14 +8,20 @@ public:
     char name[20];
     int sal;
 
-    tcs(char name[], int sal)
+    tcs() {}
+    tcs(char name[20], int sal)
     {
-        this->sal = sal;
         strcpy(this->name, name);
+        this->sal = sal;
+    }
+    void display()
+    {
+        cout << "Name: " << name << ", Salary: " << sal << endl;
     }
 };
 
 int main()
 {
-    tcs t("aditya", 50000);
+    tcs t("adi", 50000);
+    t.display();
 }

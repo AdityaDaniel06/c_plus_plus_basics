@@ -8,7 +8,7 @@ class shopping
     int cnt;
 
 public:
-    shopping()
+    shopping() // default constructor
     {
         cnt = 0;
     }

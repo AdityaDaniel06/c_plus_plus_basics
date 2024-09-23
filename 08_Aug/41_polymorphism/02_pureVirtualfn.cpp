@@ -31,8 +31,8 @@ public:
 int main()
 {
     Rbi *r;
-    Sbi s;
     Pnb p;
+    Sbi s;
     r = &s;
     r->loan(); // Calls Sbi::loan()
 }

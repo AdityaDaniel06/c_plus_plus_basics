@@ -13,7 +13,7 @@
 
 // types of classes
 // 1) single class: if a program having one class.
-// 2) ananymous class: if a program having a class which doesn't have it's own name
+// 2) ananoymous class: if a program having a class which doesn't have it's own name
 // class{
 //     int a;
 //     void show()
