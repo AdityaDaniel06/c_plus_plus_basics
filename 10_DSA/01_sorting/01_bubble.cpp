@@ -1,11 +1,18 @@
 #include <iostream>
 using namespace std;
 
-// sort the element in ascending order;
+// Review Asymptotic Notation: omega(best case),  theta(avg case) , big O(worst case)
+// time complexity = O(n^2)
+// space complexity = O(1)
+// Approch -- substract and conquer
+// stable -- as duplicate values  doesnt change values
+// inplace -- as no extra array was made
 void bubbleSort(int arr[], int n)
 {
-    for (int i = 1; i < n; i++)
+    int flag;
+    for (int i = 0; i < n; i++)
     {
+        flag = 0; // initialize flag as false
         for (int j = 0; j < n - i - 1; j++)
         {
             if (arr[j] > arr[j + 1])
@@ -14,7 +21,12 @@ void bubbleSort(int arr[], int n)
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
+                flag = 1; // if any swap occurs, flag becomes true
             }
+        }
+        if (flag == 0)
+        {
+            break;
         }
     }
 }

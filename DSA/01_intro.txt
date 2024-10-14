@@ -1,0 +1,19 @@
+Types of data structures
+Primitive ----> int , float  char , Bool
+Non-primitive-----> Linear ---> Array , Stack Linklist , queue
+                    Non-linear ---> Graph , Tree 
+
+DS is an arrangement of data in computer's memory. It makes the data quicky available to the processer for the required operation.
+It allows data to be stored , organized and access so that various opertions can be performed easily. 
+
+
+Sorting Technique
+depends on two parameters -- Time Complexity : Time taken for execution of program
+                        -- Space Complexity : Space  taken taken by the  program
+
+Sorting can be performed using several Techniques or methods-- somere
+Bubble
+Insertin
+selection Sort
+merge
+quick
