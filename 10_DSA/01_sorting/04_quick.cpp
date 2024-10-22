@@ -1,7 +1,9 @@
 #include <iostream>
 using namespace std;
 
-// O(log n) ---Divide n Conquer
+// O(n log n) avg ---
+// O( n^2)
+// Divide n Conquer
 int sorting(int arr[], int low, int high)
 {
     int pivot = arr[low];
