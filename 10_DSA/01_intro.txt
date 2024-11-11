@@ -17,3 +17,23 @@ Insertin
 selection Sort
 merge
 quick
+
+
+Binary Tree
+RR rotation-- 8,9,10
+LL rotation-- 10,9,8
+LR rotation--10,8,9
+RL rotation--8,10,9
+ 
+ 3,5,11,8,4,1,12,7,2,6
+
+               5
+            3     11
+        1   4       8   12
+        2          6
+        
+
+Graph-- can be cylic or acylic
+ Traversing  Technique in Graph: BFS and DFS
+    BFS--queue  approch(level order) --LIFO
+    DFS-- no node exploring 
